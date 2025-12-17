@@ -1,0 +1,47 @@
+[package]
+name = "anoradotcafe"
+version = "0.1.0"
+edition = "2021"
+authors = ["ANORA Labs Team"]
+description = "ANORA Labs - A terminal-based coffee shop experience"
+license = "MIT"
+
+[dependencies]
+# TUI Framework
+ratatui = "0.29"
+crossterm = "0.28"
+
+# Async runtime
+tokio = { version = "1.42", features = ["full"] }
+
+# HTTP client for Supabase
+reqwest = { version = "0.12", features = ["json"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Environment variables
+dotenvy = "0.15"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "2.0"
+
+# UUID generation
+uuid = { version = "1.11", features = ["v4", "serde"] }
+
+# Date/time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# QR code generation for payment
+qrcode = "0.14"
+
+# SSH key fingerprint & home directory
+dirs = "5.0"
+sha2 = "0.10"
+base64 = "0.22"
+
+[[bin]]
+name = "anora"
+path = "src/main.rs"
