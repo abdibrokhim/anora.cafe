@@ -1,8 +1,22 @@
-order your coffee from terminal
+order your coffee over ssh terminal
 
 ssh anoralabs.shop
 
-ANORA Labs – AI Creative Canvas https://anora.yaps.gg
-ANORA Labs Shop - https://anoralabs.shop
+[ANORA Labs](https://anora.yaps.gg) – AI Creative Canvas.
+[ANORA Labs Shop](https://anoralabs.shop) - Order your coffee over ssh terminal.
 
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+UI/UX
+
+![region](./images/region.png)
+
+![coffee](./images/coffee.png)
+
+![account](./images/account.png)
+
+![cart](./images/cart.png)
+
+![address](./images/address.png)
+
+![paymenet](./images/payment.png)
+
+made by [Yaps GG](https://yaps.gg)
